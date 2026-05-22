@@ -1,8 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind screens;
-@tailwind variants;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 .remark-code-title {
   @apply px-5 py-3 font-mono text-sm font-bold text-gray-200 bg-gray-700 rounded-t;
@@ -115,7 +112,7 @@ body {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@layer sm {
+@media (min-width: 640px) {
   .nav {
     background-color: transparent !important;
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */

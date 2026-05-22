@@ -1,5 +1,3 @@
-const withPlugins = require('next-compose-plugins')
-
 const withPWA = require('next-pwa')({
   disable: process.env.NODE_ENV === 'development',
   dest: 'public'
@@ -9,12 +7,17 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 
-module.exports = withPlugins([
-  withBundleAnalyzer,
-  withPWA
-], {
+const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js'
+      }
+    }
+  },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
       test: /\.(png|jpe?g|gif|mp4)$/i,
@@ -45,4 +48,6 @@ module.exports = withPlugins([
 
     return config
   }
-})
+}
+
+module.exports = withBundleAnalyzer(withPWA(nextConfig))
