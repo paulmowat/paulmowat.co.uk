@@ -10,7 +10,7 @@ export default function About () {
       <PageWrapper>
         <PageSEO
           title='About'
-          description="Hey, I'm Paul Mowat. I'm a developer based near Aberdeen Scotland who currently works for OneAdvanced as an Principal Devops Architect."
+          description="Hey, I'm Paul Mowat. I'm a developer based near Aberdeen Scotland who currently works for OneAdvanced as an Principal Solution Architect."
         />
         <main id='about' className='divide-y'>
           <h1 className='pageTitle'>
@@ -22,13 +22,13 @@ export default function About () {
             </div>
             <div className='content'>
               <p>
-                Based near Aberdeen Scotland, I currently work for <Link href='https://www.oneadvanced.com'>OneAdvanced</Link> as an Principal DevOps Architect.
+                Based near Aberdeen Scotland, I currently work for <Link href='https://www.oneadvanced.com'>OneAdvanced</Link> as an Principal Solution Architect.
               </p>
               <p>
-                I have 18+ years experience designing, implementing, and supporting large-scale applications across multiple platforms and technologies.
+                I have 20+ years experience designing, implementing, and supporting large-scale applications across multiple platforms and technologies.
               </p>
               <p>
-                I specialise in DevOps, CI/CD, and Cloud Migration architecture, with a focus on standardisation and accelerating delivery on platforms like AWS, Azure, and Harness.
+                I specialise in the Agentic SDLC, DevOps, CI/CD, and Cloud Migration architecture, with a focus on standardisation and accelerating delivery on platforms like AWS, Azure, and Harness.
               </p>
               <p>
                 I engage with stakeholders at all levels and external partners to ensure projects are designed and delivered according to best practices, whilst remaining aligned to business goals.

@@ -1,9 +1,27 @@
 {
   "work": [
     {
-      "company": "Advanced",
+      "company": "OneAdvanced",
+      "title": "Principal Solutions Architect",
+      "years": "September 2025 - Present",
+      "icon": "work",
+      "details": [
+        "Leading the design and build of the Agentic SDLC and our internal platform that orchestrates automated delivery once code leaves the toolkit, covering AI Gateway, deployments, PR reviews and documentation",
+        "Leading the Agentic Toolchain, a set of SDLC-stage commands and backing skills that run on developers' machines to take a feature from planning and requirements through design, build, test, security and commit/merge"
+      ],
+      "technologies": [
+        "Node.js",
+        "AI",
+        "Agentic Tooling",
+        "MCP",
+        "AWS",
+        "GitHub"
+      ]
+    },
+    {
+      "company": "OneAdvanced",
       "title": "Principal DevOps Architect",
-      "years": "June 2021 - Present",
+      "years": "June 2021 - September 2025",
       "icon": "work",
       "details": [
         "Led a core DevOps team of seven, architecting and implementing CI/CD pipelines, defining standards and best practices, and integrating DevSecOps practices (SonarQube, FOSSA) to enhance delivery speed and security compliance",
@@ -56,7 +74,7 @@
       ]
     },
     {
-      "company": "Advanced",
+      "company": "OneAdvanced",
       "title": "ERP Architect",
       "years": "March 2018 - May 2021",
       "icon": "work",
@@ -79,7 +97,7 @@
       ]
     },
     {
-      "company": "Advanced",
+      "company": "OneAdvanced",
       "title": "Principal Software Developer",
       "years": "November 2012 - February 2018",
       "icon": "work",
@@ -106,7 +124,7 @@
       ]
     },
     {
-      "company": "Advanced",
+      "company": "OneAdvanced",
       "title": "Senior Developer",
       "years": "November 2010 - November 2012",
       "icon": "work",
